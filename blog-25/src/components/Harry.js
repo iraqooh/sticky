@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Harry() {
   return (
-    <Container className='mt-5'>
+    <Container className='mt-5 page'>
         <Row>
             <Col>
                 <h2>Iraku Harry's Contributions</h2>

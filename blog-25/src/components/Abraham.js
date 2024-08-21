@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Abraham() {
   return (
-    <Container className="mt-5">
+    <Container className="mt-5 page">
       <Row>
         <Col>
           <h2>Atong Kur Abraham's Contributions</h2>

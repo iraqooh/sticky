@@ -3,12 +3,12 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 function Home() {
   return (
-    <div>
+    <div className='page'>
       <Container className="mt-5 text-center">
         <Row>
           <Col>
             <h2>Welcome to Our Project Blog</h2>
-            <p>This blog documents the contributions of each team member to the Bidirectional Sign Language and Speech Translation System project.</p>
+            <p>This blog documents the contributions of each team member to the TBD project.</p>
           </Col>
         </Row>
       </Container>

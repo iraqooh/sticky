@@ -1,8 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-  }
+}
   
-  header, footer {
+header {
     margin-bottom: 20px;
-  }
+}
+
+.page {
+  min-height: 540px;
+}
   
