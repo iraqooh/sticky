@@ -8,6 +8,8 @@ import Abraham from './components/Abraham';
 import Owen from './components/Owen';
 import Robert from './components/Robert';
 import Harry from './components/Harry';
+import Tasks from './components/Tasks';
+import TaskDetails from './components/TaskDetails';
 
 function App() {
   return (
@@ -16,12 +18,17 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/tasks" element={<Tasks />} />
+          <Route 
+            path="/task/:id" 
+            element={<TaskDetails />} 
+          />
           <Route path="/abraham" element={<Abraham />} />
           <Route path="/owen" element={<Owen />} />
           <Route path="/robert" element={<Robert />} />
           <Route path="/harry" element={<Harry />} />
         </Routes>
-        <Footer />
+        <Footer/>
       </div>
     </Router>
   );
