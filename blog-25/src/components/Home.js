@@ -17,7 +17,7 @@ function Home() {
           <Row>
             <Col md={3}>
               <Card className="text-center">
-                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/atong.JPG`} alt="Atong Kur Abraham" />
+                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/atong.png`} alt="Atong Kur Abraham" />
                 <Card.Body>
                   <Card.Title>Atong Kur Abraham</Card.Title>
                   <Card.Text>Developer</Card.Text>
@@ -26,7 +26,7 @@ function Home() {
             </Col>
             <Col md={3}>
               <Card className="text-center">
-                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/ddamulira.JPG`} alt="Ddamulira Owen" />
+                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/owen.png`} alt="Ddamulira Owen" />
                 <Card.Body>
                   <Card.Title>Ddamulira Owen</Card.Title>
                   <Card.Text>Engineer</Card.Text>
@@ -35,7 +35,7 @@ function Home() {
             </Col>
             <Col md={3}>
               <Card className="text-center">
-                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/mutumba.JPG`} alt="Mutumba Robert" />
+                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/robert.png`} alt="Mutumba Robert" />
                 <Card.Body>
                   <Card.Title>Mutumba Robert</Card.Title>
                   <Card.Text>Engineer</Card.Text>
@@ -44,7 +44,7 @@ function Home() {
             </Col>
             <Col md={3}>
               <Card className="text-center">
-                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/iraku.JPG`} alt="Iraku Harry" />
+                <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/harry.JPG`} alt="Iraku Harry" />
                 <Card.Body>
                   <Card.Title>Iraku Harry</Card.Title>
                   <Card.Text>Developer</Card.Text>
