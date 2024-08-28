@@ -8,7 +8,7 @@ function Home() {
         <Row>
           <Col>
             <h2>Welcome to Our Project Blog</h2>
-            <p>This blog documents the contributions of each team member to the Bidirectional Sign Language and Speech Translation System project.</p>
+            <p>This blog documents the contributions of each team member to the Automated Exam Grading System project.</p>
           </Col>
         </Row>
       </Container>
